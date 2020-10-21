@@ -27,7 +27,7 @@ for dT in dTlist:
         ax.set_ylabel(r'$T$ (K)')
 
         # figure name
-        figfile = f'../example/Gcurves/MoZr-dT{dT}-Nx{Nx:05d}.png'
+        figfile = f'../example/PhD/MoZr-dT{dT}-Nx{Nx:05d}.png'
         print(figfile)
 
         Temps = np.arange(Tmin, Tmax + dT, dT)  # temperature array

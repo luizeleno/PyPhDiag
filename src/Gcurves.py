@@ -26,7 +26,7 @@ for T in Tlist:
     print(f'T = {T} K')
 
     # figure name
-    figfile = f'../example/PhD/MoZr-T{T}.png'
+    figfile = f'../example/Gcurves/MoZr-T{T}.png'
 
     # preparing graphics
     plt.cla()
